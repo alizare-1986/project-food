@@ -7,7 +7,7 @@
     padding: 20px 30px;
     border: 0.1rem solid silver;
     border-radius: 20px;
-    background-color: yellow
+    background-color: rgb(89, 255, 0)
   }
   
   .left a {
@@ -27,7 +27,7 @@
   
   }
   .footer {
-    background-color: #d80d14;
+    background-color: rgb(89, 255, 0);
     text-align: center;
     color: #fff;
     padding: 10px 0;
@@ -47,10 +47,21 @@
     .header {
       padding: 20px;
     }
+    .name {
+      font-size: medium;
+    }
   }
   
   @media (max-width: 600px) {
     .header {
       padding: 10px;
     }
+    .name {
+      font-size: small;
+    }
+  }
+  @media(max-width:300px){
+    .name {
+      font-size:smaller;
+    } 
   }
