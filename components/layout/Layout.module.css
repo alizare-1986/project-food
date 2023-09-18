@@ -1,13 +1,13 @@
 .header {
-    max-width: auto;
+    max-width: 1400px;
     margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 30px;
     border: 0.1rem solid silver;
-    border-radius: 10px;
-    background-color: rgb(0, 255, 47);
+    border-radius: 20px;
+    background-color: yellow
   }
   
   .left a {
@@ -18,10 +18,14 @@
   
   .right a {
     margin-left: 15px;
-    color: dimgrey;
+    color: rgb(238, 14, 14);
     font-weight: 500;
   }
+  .name {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: blue;
   
+  }
   .footer {
     background-color: #d80d14;
     text-align: center;
