@@ -37,6 +37,7 @@ function CategoriesPage({data}) {
           <button onClick={serachHandler}>Serach</button>
         </div>
         <div className={styles.cards}>
+            {!data.length?<img src="/images/search.png" alt="category" />:null}
             {data.map((food)=>(
                 <Card key={food.id} {...food}/>
             ))}
