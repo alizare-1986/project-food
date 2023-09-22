@@ -12,7 +12,7 @@ function Banner() {
             Uber in 2014. Meals are delivered by couriers using cars, scooters,
             bikes, or on foot.
           </span>
-          <Link href="/menu">See All</Link>
+          <Link href="/menu">See All Food</Link>
         </div>
         <div className={styles.right}>
           <img src={"/images/banner.png"} alt={"Food image"} />

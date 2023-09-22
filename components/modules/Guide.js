@@ -6,7 +6,7 @@ function Guide() {
     <div className={styles.container}>
       <Link href="/menu">Menu</Link>
       <Link href="/categories">Categories</Link>
-      <Link href="/">Discount</Link>
+      <Link href="/discount">Discount</Link>
     </div>
   );
 }

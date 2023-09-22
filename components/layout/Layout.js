@@ -11,6 +11,7 @@ function Layout({children}) {
             <div className={styles.right}>
                 <Link href={"/menu"}>Menu</Link>
                 <Link href={"/categories"}>Categories</Link>
+                <Link href={"/discount"}>Discount</Link>
             </div>
         </header>
         <div className={styles.container}>{children}</div>
