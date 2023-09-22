@@ -38,6 +38,6 @@ export async function getStaticProps(context) {
  }
   return {
     props: { data },
-    revalidate: 10, //seconds //for update offsell
+    revalidate: 1*60*60, //seconds //for update offsell
   };
 }

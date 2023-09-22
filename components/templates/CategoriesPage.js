@@ -1,10 +1,16 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import styles from "./CategoriesPage.module.css";
 import { useRouter } from "next/router";
 import Card from "../modules/Card";
 function CategoriesPage({data}) {
   const router = useRouter();
   const [query, setQuery] = useState({ difficulty: "", time: "" });
+  useEffect(()=>{
+    const {difficulty,time}=router.query
+    if(query.difficulty !== difficulty || query.time!==time){
+        setQuery({difficulty,time})
+    }
+  },[])
   const changeHandler = (e) => {
     setQuery({ ...query, [e.target.name]: e.target.value });
   };
